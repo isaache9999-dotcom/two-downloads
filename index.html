@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080808">
+<meta name="description" content="Download Two — a private chat app for two people.">
+<title>Two — Download</title>
+<style>
+:root{color-scheme:dark;--bg:#080808;--panel:#111;--line:#292929;--text:#f5f5f5;--muted:#a0a0a0;--subtle:#686868}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -18%,rgba(255,255,255,.07),transparent 48%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}.wrap{width:min(100% - 40px,780px);margin:0 auto}header{display:flex;align-items:center;justify-content:space-between;padding:26px 0}.brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;letter-spacing:-.04em;font-size:20px}.brand-mark{width:30px;height:30px;display:grid;place-items:center;border:1px solid #3b3b3b;border-radius:10px;font-size:16px}.version{color:var(--muted);font-size:12px;border:1px solid var(--line);padding:7px 10px;border-radius:999px}
+main{padding:58px 0 70px}.hero{text-align:center;margin-bottom:42px}.eyebrow{color:#b4b4b4;text-transform:uppercase;letter-spacing:.18em;font-size:11px;font-weight:650}h1{margin:16px 0 12px;font-size:clamp(48px,9vw,76px);line-height:.98;letter-spacing:-.075em}.tagline{max-width:480px;margin:0 auto;color:var(--muted);font-size:16px;line-height:1.65}
+.download-list{display:grid;gap:12px}.download-card{display:grid;grid-template-columns:54px minmax(0,1fr) auto;align-items:center;gap:16px;padding:20px;border:1px solid var(--line);background:rgba(17,17,17,.92);border-radius:18px;transition:background .18s,border-color .18s,transform .18s}.download-card:hover{background:#171717;border-color:#444;transform:translateY(-1px)}.platform-icon{display:grid;place-items:center;width:52px;height:52px;border:1px solid #303030;border-radius:15px;color:#f3f3f3}.platform-icon svg{width:25px;height:25px}.platform-name{margin:0 0 5px;font-size:17px;font-weight:650;letter-spacing:-.025em}.platform-desc{color:var(--muted);font-size:13px;line-height:1.5}.platform-meta{color:var(--subtle);font-size:11px;margin-top:5px}
+.download-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:138px;padding:11px 14px;border-radius:11px;border:1px solid #ededed;background:#ededed;color:#101010;text-decoration:none;font-size:13px;font-weight:700;white-space:nowrap;transition:background .18s,transform .18s}.download-btn:hover{background:#fff;transform:translateY(-1px)}.download-btn.disabled{border-color:#333;background:#1a1a1a;color:#777;cursor:not-allowed;pointer-events:none}.notice{margin:22px 2px 0;color:#858585;font-size:12px;line-height:1.7}.notice strong{color:#bdbdbd;font-weight:600}
+.details{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:42px}.detail{border-top:1px solid var(--line);padding:17px 5px 0}.detail-title{font-size:12px;font-weight:650;margin-bottom:7px}.detail p{margin:0;color:var(--muted);font-size:12px;line-height:1.65}footer{border-top:1px solid #202020;padding:22px 0 30px;color:#666;font-size:11px}.footer-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.footer-links{display:flex;gap:16px}footer a{color:#999;text-decoration:none}footer a:hover{color:#fff}
+@media(max-width:600px){.wrap{width:min(100% - 28px,780px)}main{padding:42px 0 52px}.hero{margin-bottom:30px}.download-card{grid-template-columns:44px minmax(0,1fr);gap:13px;padding:16px}.platform-icon{width:44px;height:44px;border-radius:13px}.download-btn{grid-column:1/-1;width:100%;min-height:43px}.details{grid-template-columns:1fr;gap:19px;margin-top:32px}.detail{padding-top:13px}.version{font-size:11px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body><div class="wrap">
+<header><a class="brand" href="./" aria-label="Two home"><span class="brand-mark" aria-hidden="true">Ⅱ</span><span>Two</span></a><span class="version" id="version">Desktop · v0.1.0</span></header>
+<main>
+<section class="hero"><div class="eyebrow">A little space for two</div><h1>Two.</h1><p class="tagline">One private space for your conversations.<br>Choose your device and get started.</p></section>
+<section class="download-list" aria-label="Download options">
+<article class="download-card"><div class="platform-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="1.8"/><path d="M8 21h8M12 17v4M3 9h18"/></svg></div><div><h2 class="platform-name">Windows</h2><div class="platform-desc">For Windows 10 and Windows 11</div><div class="platform-meta">Installer · x64</div></div><a class="download-btn" id="windows-download" href="#" target="_blank" rel="noopener">Download ↗</a></article>
+<article class="download-card"><div class="platform-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><div><h2 class="platform-name">macOS</h2><div class="platform-desc">For Mac with Apple Silicon or Intel</div><div class="platform-meta">Mac installer · Build in progress</div></div><a class="download-btn disabled" id="mac-download" href="#" aria-disabled="true">Coming soon</a></article>
+<article class="download-card"><div class="platform-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M10 5h4M11 18.5h2"/></svg></div><div><h2 class="platform-name">iPhone</h2><div class="platform-desc">A mobile version for iOS</div><div class="platform-meta">iOS app · Not released yet</div></div><a class="download-btn disabled" id="iphone-download" href="#" aria-disabled="true">Coming soon</a></article>
+</section>
+<p class="notice"><strong>Note:</strong> Two is currently available for Windows. The macOS and iPhone options will be enabled when those builds are ready. Only download installers from a source you trust.</p>
+<section class="details" aria-label="About Two"><div class="detail"><div class="detail-title">Simple by design</div><p>A clean interface that keeps the focus on your conversation.</p></div><div class="detail"><div class="detail-title">Made for your devices</div><p>Separate builds for each supported platform.</p></div><div class="detail"><div class="detail-title">Private means protected</div><p>Account access and database rules—not a hidden link—protect chat data.</p></div></section>
+</main>
+<footer><div class="footer-inner"><span>© <span id="year"></span> Two</span><div class="footer-links"><a id="source-link" href="https://github.com/isaache9999-dotcom/two-chat-app" target="_blank" rel="noopener">Project</a></div></div></footer>
+</div>
+<script>
+/* Replace these placeholders with stable HTTPS download URLs when each build is ready.
+   Do not use temporary GitHub Actions artifact links for public downloads. */
+const DOWNLOADS={windows:"WINDOWS_DOWNLOAD_URL",mac:"MAC_DOWNLOAD_URL",iphone:"IPHONE_DOWNLOAD_URL",version:"v0.1.0",project:"https://github.com/isaache9999-dotcom/two-chat-app"};
+document.getElementById("version").textContent="Desktop · "+DOWNLOADS.version;
+document.getElementById("year").textContent=new Date().getFullYear();
+document.getElementById("source-link").href=DOWNLOADS.project;
+function configureDownload(id,url,label){const a=document.getElementById(id);if(url&&!url.endsWith("_DOWNLOAD_URL")&&/^https:\/\//i.test(url)){a.href=url;a.classList.remove("disabled");a.removeAttribute("aria-disabled");a.textContent=label}else{a.href="#";a.classList.add("disabled");a.setAttribute("aria-disabled","true");a.textContent="Coming soon"}}
+configureDownload("windows-download",DOWNLOADS.windows,"Download ↗");
+configureDownload("mac-download",DOWNLOADS.mac,"Download ↗");
+configureDownload("iphone-download",DOWNLOADS.iphone,"App Store ↗");
+</script></body></html>
